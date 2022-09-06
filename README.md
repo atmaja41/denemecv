@@ -1,2 +1,2 @@
 # denemecv
-## Benim yapmış oldğum ilk çalışmam.
+## Benim yapmış olduğum ilk html,css çalışmam.
