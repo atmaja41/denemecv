@@ -1,68 +1,123 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <title>Mustafa'nın Kişisel Sitesi</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Mustafa'nın Kişisel Sitesi</title>
-</head>
-
-<body style="background-color: AliceBlue">
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/profil-modified.png" width="168" height="168" alt="mustafa profil fotoğrafı"></td>
-      <td>
-        <h1>Mustafa Atmaca</h1>
-        <p>Ben bir çaylak yazılımcıyım ve kahveyi severim.</p>
-        <p><em>Mustafa Atmaca'nın yaptığı kişisel <strong><a href="file:///C:/Users/matma/Desktop/Web%20Development/HTML%20-%20Personal%20Site/index.html">ilk web sitesi.</a></strong></em></p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Öğrenci</h3>
-  <ul>
-    <li>Necip Fazıl Anadolu Lisesi </li>
-    <li>Bandırma 17 Eylül Üniversitesi Y önetim Bilişim Sistemleri</li>
-  </ul>
-  <hr>
-  <h3>İş Deneyimi</h3>
-  <table cellspacing="10" border="1">
-    <thead>
+  <body>
+    <nav class="navbar">
+      <h2 class="fontbaslik">ATMACA41</h2>
+      <a class="positionnav" href="">Anasayfa</a>
+      <a class="positionnav" href="hobbies.html" target="_top">Hobilerim</a>
+      <a class="positionnav" href="contact.html" target="_top">İletişime Geç</a>
+      <a class="positionnav" href="">Hakkımızda</a>
+    </nav>
+    <p class="paragbir"></p>
+    <div class="box">
+      <table cellspacing="20" align="center">
+        <tr>
+          <td>
+            <img
+              src="images/profil-modified.png"
+              width="168"
+              height="168"
+              alt="mustafa profil fotoğrafı"
+            />
+          </td>
+          <td>
+            <h1>Mustafa Atmaca</h1>
+            <p>
+              <span style="color: #fbff00"
+                >Ben bir çaylak yazılımcıyım ve kahveyi severim.</span
+              >
+            </p>
+            <p>
+              <em
+                ><span style="color: #fbff00"
+                  >Mustafa Atmaca'nın yaptığı kişisel
+                  <strong
+                    ><a
+                      href="file:///C:/Users/matma/Desktop/Web%20Development/HTML%20-%20Personal%20Site/index.html"
+                      >ilk web sitesi.</a
+                    ></strong
+                  ></span
+                ></em
+              >
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <h3>Öğrenci</h3>
+    <div class="box2">
+    <ul class="ulcenter">
+      <li class="licenter">
+        <!-- Real -->
+        <span style="color: #fbff00">Necip Fazıl Anadolu Lisesi </span>
+      </li>
+      <li class="licenter">
+        <span style="color: #fbff00">
+          Bandırma 17 Eylül Üniversitesi Yönetim Bilişim Sistemleri</span
+        >
+      </li>
+    </ul>
+  </div>
+    <hr />
+    <h3>İş Deneyimi</h3>
+    <div class="">
+    <table cellspacing="10" border="1" align="center">
+      <thead>
+        <tr>
+          <th><span style="color: #fbff00; font-style: italic">Dates</span></th>
+          <th><span style="color: #d400ff; font-style: italic">Work</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Everything is example -->
+          <td>
+            <span style="color: #fbff00">Lead Developer at Tempo App</span>
+          </td>
+          <td><span style="color: #d400ff">2010-2013</span></td>
+        </tr>
+        <tr>
+          <td><span style="color: #fbff00">2010</span></td>
+          <td>
+            <span style="color: #d400ff"
+              >Researcher at The Institute of Congnitive Neuroscience</span
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    <hr />
+    <h3>Skills</h3>
+    <table cellspacing="10" border="1" align="center">
       <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2010-2013</td>
-        <td>Lead Developer at Tempo App</td>
+        <!-- Everything is example -->
+        <td><span style="color: #fbff00">iOS Development</span></td>
+        <td>⭐⭐⭐⭐⭐</td>
       </tr>
       <tr>
-        <td>2010</td>
-        <td>Researcher at The Institute of Congnitive Neuroscience</td>
+        <td><span style="color: #fbff00">Web Development</span></td>
+        <td>⭐⭐⭐⭐⭐</td>
       </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10" border="1">
-    <tr>
-      <td>iOS Development</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Web Development</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Photograpy</td>
-      <td>⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html" target="_top" >Hobilerim</a>
-  <br>
-  <a href="contact.html" target="_top" >İletişime Geç</a>
-</body>
-
+      <tr>
+        <td><span style="color: #fbff00">Photograpy</span></td>
+        <td>⭐⭐</td>
+      </tr>
+    </table>
+    <hr />
+  </body>
 </html>
